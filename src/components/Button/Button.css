@@ -1,0 +1,61 @@
+.add-task-button {
+    cursor: pointer;
+
+    display: block;
+
+    color: white;
+    background-color: rgba(17, 98, 255, 1);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+
+    min-width: fit-content;
+
+    border-right: 1.75px solid #c6c6c6;
+    border-bottom: 1.75px solid #c6c6c6;
+    border-top: 1.75px solid #c6c6c6;
+    border-left: none;
+    border-radius: 3.5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    padding: 1rem 0.75rem;
+
+    margin: 0px;
+    gap: 0px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.trash-bin-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 2.5rem;
+    width: 2.5rem;
+
+    border: 0.0625rem solid #1c1c1c;
+    border-radius: 0.25rem;
+
+    background-color: #890000;
+    gap: 2px;
+}
+
+.button.constructive {
+    background-color: green;
+
+    color: white;
+
+    border: none;
+    border-radius: 0.25rem;
+
+    padding: 0.25rem 0.5rem;
+}
+
+.button.hidden {
+    display: none;
+}
